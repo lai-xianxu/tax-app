@@ -1,0 +1,97 @@
+.van-dialog {
+  border-radius: 4px !important;
+  width: 270px !important;
+  .van-dialog__content {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    margin-top: 10px;
+    .van-dialog__message {
+      padding: 0 !important;
+    }
+    .van-dialog__message--has-title {
+      padding: 0 12px !important;
+    }
+    .van-button {
+      border: none !important;
+      outline: none !important;
+      border-radius: 0 !important;
+    }
+  }
+  .van-button {
+    border: none !important;
+    outline: none !important;
+    border-radius: 0 !important;
+  }
+}
+.van-overlay {
+  background: rgba(0, 0, 0, 0.45) !important;
+}
+.van-picker__toolbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 44px;
+  border-bottom: 1px solid rgba(238, 237, 237, 0.6);
+  .van-picker__cancel,
+  .van-picker__confirm {
+    height: 100%;
+    padding: var(--van-picker-action-padding);
+    font-size: var(--van-picker-action-font-size);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .van-picker__cancel {
+    font-size: 15px;
+    color: var(--van-picker-cancel-action-color);
+  }
+  .van-picker__confirm {
+    font-size: 15px;
+    color: var(--van-picker-confirm-action-color);
+  }
+}
+.van-tabs__wrap {
+  border-bottom: 1px solid rgba(238, 237, 237, 0.6);
+  .van-cascader__tab--unselected {
+    .van-tab__text {
+      color: var(--van-picker-confirm-action-color);
+    }
+  }
+}
+
+.loading-toast {
+  background: rgba(0, 0, 0, 0.6) !important;
+  width: 60px !important;
+  min-width: 60px !important;
+  height: 60px !important;
+  min-height: 60px !important;
+}
+
+.van-cascader {
+  .van-tab__panel {
+    position: relative;
+  }
+  .van-tabs__line {
+    height: 2px;
+  }
+  .van-tab__text {
+    max-width: 88px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    word-break: break-all;
+  }
+  .van-tab--active {
+    color: #5084ea !important;
+  }
+  .van-cascader__selected-icon {
+    margin-right: 30px;
+  }
+  .van-cascader__tab,
+  .van-cascader__option--selected {
+    font-weight: 400 !important;
+  }
+}

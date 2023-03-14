@@ -1,0 +1,46 @@
+{
+  "name": "tax-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode dev",
+    "build": "vite build",
+    "build:prd": "vite build --mode prd",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "amfe-flexible": "2.2.1",
+    "axios": "1.3.2",
+    "pinia": "2.0.30",
+    "pinia-plugin-persistedstate": "3.0.2",
+    "vant": "4.0.10",
+    "vue": "^3.2.45",
+    "vue-router": "4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "8.34.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-define-config": "1.15.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-vue": "9.9.0",
+    "postcss-html": "1.5.0",
+    "postcss-pxtorem": "5.1.1",
+    "postcss-sass": "0.5.0",
+    "prettier": "2.8.4",
+    "sass": "1.58.0",
+    "stylelint": "15.1.0",
+    "stylelint-config-html": "1.1.0",
+    "stylelint-config-prettier": "9.0.5",
+    "stylelint-config-recess-order": "3.1.0",
+    "stylelint-config-standard": "30.0.1",
+    "stylelint-less": "1.0.6",
+    "stylelint-order": "6.0.2",
+    "unplugin-vue-components": "0.23.0",
+    "vite": "^4.1.0",
+    "vue-eslint-parser": "9.1.0"
+  }
+}

@@ -1,0 +1,6 @@
+@mixin linear($direction, $color1, $color2) {
+  background: -webkit-linear-gradient($direction, $color1, $color2); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient($direction, $color1, $color2); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient($direction, $color1, $color2); /* Firefox 3.6 - 15 */
+  background: linear-gradient($direction, $color1, $color2); /* 标准的语法 */
+}

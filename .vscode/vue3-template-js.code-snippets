@@ -1,0 +1,19 @@
+{
+  "vue3-template-js": {
+    "prefix": "vue3-template",
+    "body": [
+      "<template>",
+      "  ",
+      "</template>",
+      "",
+      "<script setup>",
+      "",
+      "</script>",
+      "",
+      "<style scoped lang=\"scss\">",
+      "",
+      "</style>"
+    ],
+    "description": "vue3-template-js"
+  }
+}

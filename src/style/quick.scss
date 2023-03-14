@@ -1,0 +1,246 @@
+/* flex */
+.f1 {
+  flex: 1;
+}
+.fw {
+  flex-wrap: wrap;
+}
+.fwnw {
+  flex-wrap: nowrap;
+}
+.fdc {
+  flex-direction: column;
+}
+.fdcr {
+  flex-direction: column-reverse;
+}
+.fdrr {
+  flex-direction: row-reverse;
+}
+
+/* flex布局 */
+.fcc {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.fcc-c {
+  @extend .fcc;
+  flex-direction: column;
+}
+.fsc {
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fsc-c {
+  @extend .fsc;
+  flex-direction: column;
+}
+.fsac {
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center;
+}
+.fsac-c {
+  @extend .fsac;
+  flex-direction: column;
+}
+.fsbs {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.fsbs-c {
+  @extend .fsbs;
+  flex-direction: column;
+}
+.fsas {
+  display: flex !important;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.fsas-c {
+  @extend .fsas;
+  flex-direction: column;
+}
+.fses {
+  display: flex !important;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.fses-c {
+  @extend .fses;
+  flex-direction: column;
+}
+.fsec {
+  display: flex !important;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fsec-c {
+  @extend .fsec;
+  flex-direction: column;
+}
+.fsee {
+  display: flex !important;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.fsee-c {
+  @extend .fsee;
+  flex-direction: column;
+}
+.fcs {
+  display: flex !important;
+  justify-content: center;
+  align-items: flex-start;
+}
+.fcs-c {
+  @extend .fcs;
+  flex-direction: column;
+}
+.fcsb {
+  display: flex !important;
+  justify-content: center;
+  align-items: space-between;
+}
+.fcsb-c {
+  @extend .fcsb;
+  flex-direction: column;
+}
+.fssb {
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: space-between;
+}
+.fssb-c {
+  @extend .fssb;
+  flex-direction: column;
+}
+.fss {
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.fss-c {
+  @extend .fss;
+  flex-direction: column;
+}
+.fsbc {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+.fsbc-c {
+  @extend .fsbc;
+  flex-direction: column;
+}
+.fsbe {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.fsbe-c {
+  @extend .fsbe;
+  flex-direction: column;
+}
+.fec {
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: center;
+}
+.fec-c {
+  @extend .fec;
+  flex-direction: column;
+}
+.fce {
+  display: flex !important;
+  justify-content: center;
+  align-items: flex-end;
+}
+.fce-c {
+  @extend .fce;
+  flex-direction: column;
+}
+.fse {
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.fse-c {
+  @extend .fse;
+  flex-direction: column;
+}
+.fes {
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: start;
+}
+.fes-c {
+  @extend .fes;
+  flex-direction: column;
+}
+.fee {
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.fee-c {
+  @extend .fee;
+  flex-direction: column;
+}
+
+/* other */
+.w100 {
+  width: 100%;
+}
+.h100 {
+  height: 100vh;
+}
+.te1 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  word-break: break-all;
+}
+.te2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.te3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ws {
+  white-space: normal;
+}
+.wsnw {
+  white-space: nowrap;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.ofh {
+  overflow: hidden;
+}
+.cp {
+  cursor: pointer;
+}
+.center_x {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.center_y {
+  margin-top: 50%;
+  transform: translateY(-50%);
+}

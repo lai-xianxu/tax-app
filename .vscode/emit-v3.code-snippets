@@ -1,0 +1,10 @@
+{
+  "emit-v3-js": {
+    "prefix": "emit-v3",
+    "body": [
+      "const emit = defineEmits(['update:modelValue']);",
+      "emit('update:modelValue', false);"
+    ],
+    "description": "emit-v3-js"
+  }
+}

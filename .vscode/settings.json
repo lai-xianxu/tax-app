@@ -1,0 +1,16 @@
+{
+   // 保存时eslint格式化
+   "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  // // 输入时格式化文件
+  // "editor.formatOnType": false,
+  // // 每次保存自动格式化
+  // "editor.formatOnSave": true,
+  // 粘贴时自动格式化
+  "editor.formatOnPaste": false,
+  // 自动保存
+  "files.autoSave": "off",
+
+}

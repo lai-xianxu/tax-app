@@ -1,0 +1,17 @@
+{
+  "watch-v3-js": {
+    "prefix": "watch-v3",
+    "body": [
+      "watch(",
+      "  () => props.modelValue,",
+      "  (val) => {",
+      "    visible.value = val;",
+      "  },",
+      "  {",
+      "    immediate: true,",
+      "  },",
+      ");"
+    ],
+    "description": "watch-v3-js"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "props-v3-js": {
+    "prefix": "props-v3",
+    "body": [
+      "const props = defineProps({",
+      "  modelValue: {",
+      "    type: Boolean,",
+      "    default: false,",
+      "  },",
+      "});"
+    ],
+    "description": "props-v3"
+  }
+}
